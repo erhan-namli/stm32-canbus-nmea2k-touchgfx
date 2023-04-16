@@ -1,0 +1,650 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "MainScreen",
+        "CanvasBufferSize": 7200,
+        "Components": [
+          {
+            "Type": "SwipeContainer",
+            "Name": "GaugesContainer",
+            "Width": 480,
+            "Height": 272,
+            "SwipeCutoff": 50,
+            "IndicatorImageNormal": "__generated\\alternate_theme_images_widgets_swipecontainer_medium_off_normal.png",
+            "IndicatorImageHighlight": "__generated\\alternate_theme_images_widgets_swipecontainer_medium_on_active.png",
+            "EndSwipeElasticWidth": 50,
+            "SelectedPage": "TanksGaugeScreen",
+            "Preset": "alternate_theme\\presets\\swipecontainer\\medium_active.json",
+            "Components": [
+              {
+                "Type": "Container",
+                "Name": "TanksGaugeScreen",
+                "Width": 480,
+                "Height": 272,
+                "Components": [
+                  {
+                    "Type": "Image",
+                    "Name": "TanksGaugeScreenBG",
+                    "Width": 480,
+                    "Height": 272,
+                    "RelativeFilename": "TankGaugesTankGaugesPage.png"
+                  },
+                  {
+                    "Type": "Gauge",
+                    "Name": "Tank2Gauge",
+                    "X": 260,
+                    "Y": 76,
+                    "Width": 120,
+                    "Height": 120,
+                    "FileNameBackground": "GaugeBackground.png",
+                    "RotationCenterX": 60.0,
+                    "RotationCenterY": 60.0,
+                    "StartAngle": -97.4,
+                    "EndAngle": 97.4,
+                    "RangeMax": 300.0,
+                    "InitialValue": 50.0,
+                    "Easing": "Linear",
+                    "EasingOption": "In",
+                    "FileNameNeedle": "__generated\\alternate_theme_images_widgets_gauge_tiny_needles_rough.png",
+                    "NeedleRotationCenterX": 5.0,
+                    "NeedleRotationCenterY": 33.0,
+                    "NeedleMovingRenderingAlgorithm": "Bilinear Interpolation",
+                    "NeedleSteadyRenderingAlgorithm": "Bilinear Interpolation",
+                    "FileNameArc": "__generated\\alternate_theme_images_widgets_gauge_tiny_fillers_swoop.png",
+                    "ArcColor": {
+                      "Red": 20,
+                      "Green": 151,
+                      "Blue": 197
+                    },
+                    "ArcRadius": 50.0,
+                    "ArcLineWidth": 49.0,
+                    "ArcCapStyle": "Butt"
+                  },
+                  {
+                    "Type": "Gauge",
+                    "Name": "Tank1Gauge",
+                    "X": 17,
+                    "Y": 76,
+                    "Width": 120,
+                    "Height": 120,
+                    "FileNameBackground": "GaugeBackground.png",
+                    "RotationCenterX": 60.0,
+                    "RotationCenterY": 60.0,
+                    "StartAngle": -97.4,
+                    "EndAngle": 97.4,
+                    "RangeMax": 226.0,
+                    "InitialValue": 100.0,
+                    "Easing": "Linear",
+                    "EasingOption": "In",
+                    "FileNameNeedle": "__generated\\alternate_theme_images_widgets_gauge_tiny_needles_rough.png",
+                    "NeedleRotationCenterX": 5.0,
+                    "NeedleRotationCenterY": 33.0,
+                    "NeedleMovingRenderingAlgorithm": "Bilinear Interpolation",
+                    "NeedleSteadyRenderingAlgorithm": "Bilinear Interpolation",
+                    "FileNameArc": "__generated\\alternate_theme_images_widgets_gauge_tiny_fillers_swoop.png",
+                    "ArcColor": {
+                      "Red": 20,
+                      "Green": 151,
+                      "Blue": 197
+                    },
+                    "ArcRadius": 50.0,
+                    "ArcLineWidth": 49.0,
+                    "ArcCapStyle": "Butt"
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "Tank1CapacityGaugeText",
+                    "X": 46,
+                    "Y": 145,
+                    "Width": 61,
+                    "Height": 25,
+                    "TextId": "__SingleUse_D72K",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 57,
+                      "Green": 87,
+                      "Blue": 121
+                    }
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "Tank1CapacityBarText",
+                    "X": 149,
+                    "Y": 76,
+                    "Width": 74,
+                    "Height": 25,
+                    "TextId": "__SingleUse_RO5M",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 57,
+                      "Green": 87,
+                      "Blue": 121
+                    }
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "Tank2CapacityBarText",
+                    "X": 384,
+                    "Y": 76,
+                    "Width": 74,
+                    "Height": 25,
+                    "TextId": "__SingleUse_E710",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 57,
+                      "Green": 87,
+                      "Blue": 121
+                    }
+                  },
+                  {
+                    "Type": "LineProgress",
+                    "Name": "Tank1LineProgress",
+                    "X": 172,
+                    "Y": 104,
+                    "Width": 18,
+                    "Height": 100,
+                    "FileNameProgress": "__generated\\alternate_theme_images_widgets_lineprogress_fillers_plain_thick_tiny_dark_90.png",
+                    "Color": {
+                      "Red": 255,
+                      "Green": 255,
+                      "Blue": 255
+                    },
+                    "StartX": 9.0,
+                    "StartY": 100.0,
+                    "EndX": 9.0,
+                    "LineWidth": 18.0,
+                    "LineEndingStyle": "Butt",
+                    "Preset": "alternate_theme\\presets\\lineprogress\\images\\plain\\thick\\tiny_dark_90.json",
+                    "FileNameBackground": "__generated\\alternate_theme_images_widgets_lineprogress_backgrounds_image_plain_thick_tiny_90.png",
+                    "ProgressRangeMax": 226,
+                    "ProgressInitialValue": 60
+                  },
+                  {
+                    "Type": "LineProgress",
+                    "Name": "Tank2LineProgress",
+                    "X": 412,
+                    "Y": 104,
+                    "Width": 18,
+                    "Height": 100,
+                    "FileNameProgress": "__generated\\alternate_theme_images_widgets_lineprogress_fillers_plain_thick_tiny_dark_90.png",
+                    "Color": {
+                      "Red": 255,
+                      "Green": 255,
+                      "Blue": 255
+                    },
+                    "StartX": 9.0,
+                    "StartY": 100.0,
+                    "EndX": 9.0,
+                    "LineWidth": 18.0,
+                    "LineEndingStyle": "Butt",
+                    "Preset": "alternate_theme\\presets\\lineprogress\\images\\plain\\thick\\tiny_dark_90.json",
+                    "FileNameBackground": "__generated\\alternate_theme_images_widgets_lineprogress_backgrounds_image_plain_thick_tiny_90.png",
+                    "ProgressRangeMax": 100,
+                    "ProgressInitialValue": 60
+                  },
+                  {
+                    "Type": "FlexButton",
+                    "Name": "TanksGaugeScrToHomeScr_Btn",
+                    "X": 409,
+                    "Y": 6,
+                    "Width": 64,
+                    "Height": 32,
+                    "ButtonTrigger": {
+                      "Type": "ClickButtonTrigger"
+                    },
+                    "ButtonStyles": [
+                      {
+                        "Type": "ImageButtonStyle",
+                        "ImageReleased": "BackButtonReleasedSaveButtonReleased.png",
+                        "ImagePressed": "BackButtonPressedSaveButtonReleased.png"
+                      }
+                    ]
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "Tank2CapacityGaugeText",
+                    "X": 290,
+                    "Y": 145,
+                    "Width": 60,
+                    "Height": 24,
+                    "TextId": "__SingleUse_4AN6",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 57,
+                      "Green": 87,
+                      "Blue": 121
+                    }
+                  }
+                ]
+              },
+              {
+                "Type": "Container",
+                "Name": "TanksSettingScren",
+                "Width": 480,
+                "Height": 272,
+                "Components": [
+                  {
+                    "Type": "Image",
+                    "Name": "TankSettingBG",
+                    "Width": 480,
+                    "Height": 272,
+                    "RelativeFilename": "TankSettingsTankSettings.png"
+                  },
+                  {
+                    "Type": "FlexButton",
+                    "Name": "Tank3WaterEdit_Btn",
+                    "X": 406,
+                    "Y": 117,
+                    "Width": 64,
+                    "Height": 32,
+                    "ButtonTrigger": {
+                      "Type": "ClickButtonTrigger"
+                    },
+                    "ButtonStyles": [
+                      {
+                        "Type": "ImageButtonStyle",
+                        "ImageReleased": "EditButtonReleased.png",
+                        "ImagePressed": "EditButtonPressed.png"
+                      }
+                    ]
+                  },
+                  {
+                    "Type": "FlexButton",
+                    "Name": "TanksSettingSave_Btn",
+                    "X": 406,
+                    "Y": 204,
+                    "Width": 64,
+                    "Height": 32,
+                    "ButtonTrigger": {
+                      "Type": "ClickButtonTrigger"
+                    },
+                    "ButtonStyles": [
+                      {
+                        "Type": "ImageButtonStyle",
+                        "ImageReleased": "SaveButtonReleased.png",
+                        "ImagePressed": "SaveButtonPressed.png"
+                      }
+                    ]
+                  },
+                  {
+                    "Type": "FlexButton",
+                    "Name": "Tank2FuelEdit_Btn",
+                    "X": 406,
+                    "Y": 82,
+                    "Width": 64,
+                    "Height": 32,
+                    "ButtonTrigger": {
+                      "Type": "ClickButtonTrigger"
+                    },
+                    "ButtonStyles": [
+                      {
+                        "Type": "ImageButtonStyle",
+                        "ImageReleased": "EditButtonReleased.png",
+                        "ImagePressed": "EditButtonPressed.png"
+                      }
+                    ]
+                  },
+                  {
+                    "Type": "FlexButton",
+                    "Name": "Tank1FuelEdit_Btn",
+                    "X": 406,
+                    "Y": 46,
+                    "Width": 64,
+                    "Height": 32,
+                    "ButtonTrigger": {
+                      "Type": "ClickButtonTrigger"
+                    },
+                    "ButtonStyles": [
+                      {
+                        "Type": "ImageButtonStyle",
+                        "ImageReleased": "EditButtonReleased.png",
+                        "ImagePressed": "EditButtonPressed.png"
+                      }
+                    ]
+                  },
+                  {
+                    "Type": "FlexButton",
+                    "Name": "CapacityDown_Btn",
+                    "X": 348,
+                    "Y": 228,
+                    "Width": 32,
+                    "Height": 32,
+                    "ButtonTrigger": {
+                      "Type": "ClickButtonTrigger"
+                    },
+                    "ButtonStyles": [
+                      {
+                        "Type": "ImageButtonStyle",
+                        "ImageReleased": "DownButtonReleased.png",
+                        "ImagePressed": "DownButtonPressed.png"
+                      }
+                    ]
+                  },
+                  {
+                    "Type": "FlexButton",
+                    "Name": "CapacityUp_Btn",
+                    "X": 348,
+                    "Y": 180,
+                    "Width": 32,
+                    "Height": 32,
+                    "ButtonTrigger": {
+                      "Type": "ClickButtonTrigger"
+                    },
+                    "ButtonStyles": [
+                      {
+                        "Type": "ImageButtonStyle",
+                        "ImageReleased": "UpButtonReleased.png",
+                        "ImagePressed": "UpButtonPressed.png"
+                      }
+                    ]
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "Tank1FuelText",
+                    "X": 276,
+                    "Y": 50,
+                    "Width": 64,
+                    "Height": 23,
+                    "TextId": "__SingleUse_PPG8",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 57,
+                      "Green": 87,
+                      "Blue": 121
+                    }
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "Tank3WaterText",
+                    "X": 276,
+                    "Y": 122,
+                    "Width": 64,
+                    "Height": 23,
+                    "TextId": "__SingleUse_HI8H",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 57,
+                      "Green": 87,
+                      "Blue": 121
+                    }
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "Tank4FuelText",
+                    "X": 171,
+                    "Y": 162,
+                    "Width": 57,
+                    "Height": 23,
+                    "TextId": "__SingleUse_WGA0",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 57,
+                      "Green": 87,
+                      "Blue": 121
+                    }
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "CapacityText",
+                    "X": 221,
+                    "Y": 203,
+                    "Width": 110,
+                    "Height": 34,
+                    "TextId": "__SingleUse_TD2N",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 57,
+                      "Green": 87,
+                      "Blue": 121
+                    }
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "Tank2FuelText",
+                    "X": 276,
+                    "Y": 86,
+                    "Width": 64,
+                    "Height": 25,
+                    "TextId": "__SingleUse_RIA3",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 57,
+                      "Green": 87,
+                      "Blue": 121
+                    }
+                  },
+                  {
+                    "Type": "FlexButton",
+                    "Name": "TankSettingsToHomeScr_Button",
+                    "X": 409,
+                    "Y": 6,
+                    "Width": 64,
+                    "Height": 32,
+                    "ButtonTrigger": {
+                      "Type": "ClickButtonTrigger"
+                    },
+                    "ButtonStyles": [
+                      {
+                        "Type": "ImageButtonStyle",
+                        "ImageReleased": "BackButtonReleasedSaveButtonReleased.png",
+                        "ImagePressed": "BackButtonPressedSaveButtonReleased.png"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "TankSettingsScrToHomeScr_Interaction",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "TankSettingsToHomeScr_Button"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "South",
+              "ActionComponent": "HomePageScreen"
+            }
+          },
+          {
+            "InteractionName": "TanksGaugeScrToHomeScr_Interaction",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "TanksGaugeScrToHomeScr_Btn"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "South",
+              "ActionComponent": "HomePageScreen"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "HomePageScreen",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "HomePageScreenBG",
+            "Width": 480,
+            "Height": 272,
+            "RelativeFilename": "HomePageScreen.png"
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "HomeScrToGaugeScrBtn",
+            "X": 31,
+            "Y": 61,
+            "Width": 200,
+            "Height": 150,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "ImageButtonStyle",
+                "ImageReleased": "GaugeScreenButtonReleased.png",
+                "ImagePressed": "GaugeScreenButtonPressed.png"
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "HomeScrToCalibScrBtn",
+            "X": 250,
+            "Y": 61,
+            "Width": 200,
+            "Height": 150,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "ImageButtonStyle",
+                "ImageReleased": "CalibrationScreenButtonReleased.png",
+                "ImagePressed": "CalibrationScreenButtonPressed.png"
+              }
+            ]
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "HomeScreenToGaugeScreen_Interaction",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "HomeScrToGaugeScrBtn"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "North",
+              "ActionComponent": "MainScreen"
+            }
+          },
+          {
+            "InteractionName": "HomeScrToCalibScr_Interaction",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "HomeScrToCalibScrBtn"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "South",
+              "ActionComponent": "CalibrationScreen"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "CalibrationScreen",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "Tank1CalibScrBG",
+            "Width": 480,
+            "Height": 272,
+            "RelativeFilename": "Tank1CalibrationScreen.png"
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "Tank1CalibScrToHomeScr_Btn",
+            "X": 409,
+            "Y": 6,
+            "Width": 64,
+            "Height": 32,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "ImageButtonStyle",
+                "ImageReleased": "BackButtonReleasedSaveButtonReleased.png",
+                "ImagePressed": "BackButtonPressedSaveButtonReleased.png"
+              }
+            ]
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Tank1CalibScrToHomeScr_Interaction",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Tank1CalibScrToHomeScr_Btn"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "North",
+              "ActionComponent": "HomePageScreen"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "MarineAppWithCAN",
+    "Resolution": {
+      "Width": 480,
+      "Height": 272
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "HomePageScreen",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 480,
+        "Height": 272
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommandOverride": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommandOverride": "make -f ../gcc/Makefile flash",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32H7",
+    "SubFamily": "STM32H750 Value line",
+    "Toolchain": "STM32CubeIDE",
+    "Platform": "m7",
+    "ProjectFile": "../STM32H750B-DK.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [],
+    "AdditionalFeatures": [
+      "Vector"
+    ]
+  },
+  "Version": "4.21.0",
+  "CreatedBy": "4.21.0"
+}

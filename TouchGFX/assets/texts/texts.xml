@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.21.0">
+  <Languages>
+    <Language Id="GB" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="Group1" />
+    <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_4AN6" Alignment="Center" TypographyId="Verdana_Bold_20">
+        <Translation Language="GB">180</Translation>
+      </Text>
+      <Text Id="__SingleUse_E710" Alignment="Center" TypographyId="Verdana_Bold_20">
+        <Translation Language="GB">4 %</Translation>
+      </Text>
+      <Text Id="__SingleUse_RO5M" Alignment="Center" TypographyId="Verdana_Bold_20">
+        <Translation Language="GB">4 %</Translation>
+      </Text>
+      <Text Id="__SingleUse_D72K" Alignment="Center" TypographyId="Verdana_Bold_20">
+        <Translation Language="GB">120</Translation>
+      </Text>
+      <Text Id="__SingleUse_TD2N" Alignment="Center" TypographyId="Verdana_Bold_30">
+        <Translation Language="GB">160</Translation>
+      </Text>
+      <Text Id="__SingleUse_WGA0" Alignment="Center" TypographyId="Verdana_Bold_17">
+        <Translation Language="GB">FUEL</Translation>
+      </Text>
+      <Text Id="__SingleUse_HI8H" Alignment="Center" TypographyId="Verdana_Bold_17">
+        <Translation Language="GB">180 g</Translation>
+      </Text>
+      <Text Id="__SingleUse_RIA3" Alignment="Center" TypographyId="Verdana_Bold_17">
+        <Translation Language="GB">30 g</Translation>
+      </Text>
+      <Text Id="__SingleUse_PPG8" Alignment="Center" TypographyId="Verdana_Bold_17">
+        <Translation Language="GB">200 g</Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Verdana_Bold_17" Font="verdanab.ttf" Size="17" Bpp="4" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Verdana_Bold_30" Font="verdanab.ttf" Size="30" Bpp="4" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Verdana_Bold_20" Font="verdanab.ttf" Size="20" Bpp="4" Direction="LTR" FallbackCharacter="?" />
+  </Typographies>
+</TextDatabase>
